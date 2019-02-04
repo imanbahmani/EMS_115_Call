@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/images"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TableRow
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_weight=".45"
+            android:layout_height="0dp" >
+
+            <FrameLayout
+                android:layout_margin="5dp"
+                android:background="#00C6FF"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_marginBottom="12dp"
+                    android:textSize="12dp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="اورژانس ۱۱۵" />
+
+                <ImageView
+                    android:layout_marginTop="40dp"
+                    android:layout_gravity="center"
+                    android:layout_width="85dp"
+                    android:layout_height="85dp"
+                    android:src="@drawable/ambulance" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_margin="5dp"
+                android:background="#F39C11"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:layout_marginBottom="12dp"
+                    android:textSize="12dp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="نقشه شیراز" />
+
+                <ImageView
+                    android:layout_marginTop="40dp"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mapview" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_margin="5dp"
+                android:background="#FE2763"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="match_parent" >
+
+
+                <TextView
+                    android:layout_marginBottom="12dp"
+                    android:textSize="12dp"
+                    android:drawablePadding="10dp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/txtGasTracker"
+                    android:text="سوخت" />
+
+                <ImageView
+                    android:layout_marginTop="40dp"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/gasoline" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_margin="5dp"
+                android:background="#22B9CC"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="match_parent" >
+
+
+                <TextView
+                    android:layout_marginBottom="12dp"
+                    android:textSize="12dp"
+                    android:drawablePadding="10dp"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/txtForm1023"
+                    android:text="فرم 1023" />
+
+                <ImageView
+                    android:layout_marginTop="40dp"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/check" />
+
+            </FrameLayout>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_weight=".20"
+            android:layout_height="0dp" >
+
+            <ImageView
+                android:padding="12dp"
+                android:id="@+id/imageView1"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wifi" />
+
+            <ImageView
+                android:padding="12dp"
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gpsset" />
+
+            <ImageView
+                android:padding="12dp"
+                android:id="@+id/imageView3"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:src="@drawable/photocamera" />
+
+            <ImageView
+                android:padding="12dp"
+                android:id="@+id/imageView4"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:src="@drawable/internet" />
+
+            <ImageView
+                android:padding="12dp"
+                android:id="@+id/brightless"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:src="@drawable/brightness" />
+
+            <ImageView
+                android:padding="12dp"
+                android:id="@+id/bluetooth"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bluetooth" />
+
+            <ImageView
+                android:padding="12dp"
+                android:id="@+id/GasTracker"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:src="@drawable/radio" />
+
+            <ImageView
+                android:padding="12dp"
+                android:id="@+id/Mavared"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:src="@drawable/music" />
+
+            <ImageView
+                android:padding="12dp"
+                android:id="@+id/Form1023"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ambulancemavared"/>
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight=".20"
+            android:layout_height="0dp" >
+
+            <TextView
+                android:padding="5dp"
+                android:textSize="12dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:gravity="top|center"
+                android:layout_gravity="top|center"
+                android:id="@+id/wifi"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="match_parent"
+                android:text="" />
+
+            <TextView
+                android:padding="5dp"
+                android:textSize="12dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:gravity="top|center"
+                android:layout_gravity="top|center"
+                android:id="@+id/gps"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="match_parent"
+                android:text="" />
+
+            <TextView
+                android:padding="5dp"
+                android:textSize="12dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:gravity="top|center"
+                android:layout_gravity="top|center"
+                android:id="@+id/camera"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="match_parent"
+                android:text="دوربین" />
+
+            <TextView
+                android:padding="5dp"
+                android:textSize="12dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:gravity="top|center"
+                android:layout_gravity="top|center"
+                android:id="@+id/web"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="match_parent"
+                android:text="مرورگر وب" />
+
+
+            <TextView
+                android:padding="5dp"
+                android:textSize="12dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:gravity="top|center"
+                android:layout_gravity="top|center"
+                android:id="@+id/brightlesstxt"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="match_parent"
+                android:text="روشنایی" />
+
+
+            <TextView
+                android:padding="5dp"
+                android:textSize="12dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:gravity="top|center"
+                android:layout_gravity="top|center"
+                android:id="@+id/txtluetooth"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="match_parent"
+                android:text="بلوتوث" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:padding="5dp"
+                android:textSize="12dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:gravity="top|center"
+                android:layout_gravity="top|center"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="match_parent"
+                android:text="رادیو" />
+
+
+
+
+            <TextView
+                android:padding="5dp"
+                android:textSize="12dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:gravity="top|center"
+                android:layout_gravity="top|center"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="match_parent"
+                android:id="@+id/textView4"
+                android:text="موسیقی" />
+
+
+            <TextView
+                android:id="@+id/txtMavared"
+                android:padding="5dp"
+                android:textSize="12dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:gravity="top|center"
+                android:layout_gravity="top|center"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="match_parent"
+                android:text="موارد اورژانس" />
+
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_weight=".1"
+            android:layout_height="0dp" >
+
+            <TextView
+                android:drawableBottom="@drawable/cloud"
+                android:textSize="10dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/updateLauncher"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="match_parent"
+                android:text="آپدیت لانچر" />
+
+
+            <TextView
+                android:drawableBottom="@drawable/cloud"
+                android:textSize="10dp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/updateApp115"
+                android:layout_width="0dp"
+                android:layout_weight=".25"
+                android:layout_height="match_parent"
+                android:text="آپدیت اورژانس" />
+
+        </TableRow>
+
+    </LinearLayout>
+
+
+</LinearLayout>

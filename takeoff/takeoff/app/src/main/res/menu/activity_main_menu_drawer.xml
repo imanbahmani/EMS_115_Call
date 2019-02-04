@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="ورود" />
+        <item
+            android:id="@+id/nav_signUp"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="عضویت" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_bookmark_black_24dp"
+            android:title="انتخاب دسته بندی " />
+        <item
+            android:id="@+id/nav_citySelection"
+            android:icon="@drawable/ic_place_black_24dp"
+            android:title="انتخاب شهر" />
+        <item
+            android:id="@+id/nav_disscountOnMap"
+            android:icon="@drawable/ic_map_black_24dp"
+            android:title="تخفیف های روی نقشه" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_bookmark_black_24dp"
+            android:title="نشان شده ها" />
+        <item
+            android:id="@+id/nav_messageSetting"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="تنظیمات پیغام ها" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_aboutUs"
+                android:icon="@drawable/ic_error_black_24dp"
+                android:title="درباره ما" />
+            <item
+                android:id="@+id/nav_support"
+                android:icon="@drawable/ic_call_black_24dp"
+                android:title="پشتیبانی" />
+            <item
+                android:id="@+id/nav_sendComment"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="ارسال نظر و امتیاز" />
+        </menu>
+    </item>
+
+</menu>
